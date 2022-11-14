@@ -1,4 +1,4 @@
 # Contatore alla rovescia con numeri romani
 
 ## Demo
-[Link demo](https://archistico.github.io/RomanCountdown/){:target="_blank"}
+<a href="https://archistico.github.io/RomanCountdown/" target="_blank" rel="noopener">Link demo</a>
