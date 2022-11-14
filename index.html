@@ -1,66 +1,56 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta charset="utf-8">
-  
 	<title>Roman numeral countdown</title>
-  
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="keywords" content="" />
-	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-	
-	<!-- Theme Styles -->
-	<link href="style.css" type="text/css" rel="stylesheet">
-</head>
-    
-<body>       
+	<link rel="stylesheet" href="style.css" </head>
 
-	<div class="row centerText countdownContainer">
-			<!-- Countdown dashboard start -->
-			<div id="countdown_dashboard">
-				<div class="col-xs-3 col-sm-3 col-md-3">
-					<div class="dash days_dash">
-					<div class="digit">
-						<span id="giorni"></span>
-					</div>
-						<span class="dash_title">Giorni</span>
-					</div>
-				</div>
+<body>
+	<div class="centrato">
+		<div class="main">
 
-				<div class="col-xs-3 col-sm-3 col-md-3">
-					<div class="dash hours_dash">
-					<div class="digit">
-						<span id="ore"></span>
-					</div>
-						<span class="dash_title">Ore</span>
-					</div>
+			<div class="scheda">
+				<div class="numero">
+					<span id="giorni"></span>
 				</div>
+				<div class="numero_descrizione">
+					Giorni
+				</div>
+			</div>
 
-				<div class="col-xs-3 col-sm-3 col-md-3">
-					<div class="dash minutes_dash">
-					<div class="digit">
-						<span id="minuti"></span>
-					</div>
-						<span class="dash_title">Minuti</span>
-					</div>
+			<div class="scheda">
+				<div class="numero">
+					<span id="ore"></span>
 				</div>
+				<div class="numero_descrizione">
+					Ore
+				</div>
+			</div>
 
-				<div class="col-xs-3 col-sm-3 col-md-3">
-					<div class="dash seconds_dash">
-					<div class="digit">
-						<span id="secondi"></span>
-					</div>
-						<span class="dash_title">Secondi</span>
-					</div>
+			<div class="scheda">
+				<div class="numero">
+					<span id="minuti"></span>
 				</div>
-		</div> <!-- Countdown dashboard end -->		 
+				<div class="numero_descrizione">
+					Minuti
+				</div>
+			</div>
+
+			<div class="scheda">
+				<div class="numero">
+					<span id="secondi"></span>
+				</div>
+				<div class="numero_descrizione">
+					Secondi
+				</div>
+			</div>
+
+		</div>
 	</div>
-</div>
-
-<!-- Jquery and Bootstrap  JS -->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="countdown.js"></script>
+	<script type="text/javascript" src="countdown.js"></script>
 </body>
+
 </html>
